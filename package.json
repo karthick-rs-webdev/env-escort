@@ -1,0 +1,48 @@
+{
+  "name": "env-escort",
+  "version": "1.1.5",
+  "description": "A simple CLI tool to validate .env files against .env.example",
+  "author": "Karthick",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "env-escort": "bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prebuild": "node dist/index.js",
+    "check-env": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@types/node": "^22.13.10",
+    "babel-loader": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "environment-variables",
+    "env-checker",
+    "env-validator",
+    "dotenv-check",
+    "missing-env",
+    "env-config",
+    "env-guard",
+    "env-escort",
+    "cli",
+    "node-cli",
+    "typescript",
+    "nodejs",
+    "config-checker",
+    "dotenv-validation"
+  ]
+}
