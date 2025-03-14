@@ -7,7 +7,7 @@
 ## Features
 
 - **Automatic Environment Validation**: Ensures all necessary variables exist.
-- **Multiple .env File Support**: Checks across `.env`.
+- **Checks .env File**: Checks across `.env`.
 - **Easy Integration**: Can be added to the build pipeline to prevent missing environment configurations.
 
 ## Installation
